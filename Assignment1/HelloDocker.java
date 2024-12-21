@@ -8,6 +8,7 @@ public class HelloDocker{
 		System.out.println("Enter your number 2:");
 		int num2 = sc.nextInt();
 		int sum = num1 + num2;
+		System.out.println("Number 1 is "+num1);
 		System.out.println("Sum of two number is = "+sum);
 		sc.close();
 		
